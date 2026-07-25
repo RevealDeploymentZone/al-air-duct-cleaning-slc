@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --brand-blue: #1e40af;
+  --brand-lightblue: #3b82f6;
+  --brand-dark: #1e3a5f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #1f2937;
+}
+
+.prose-custom h2 {
+  @apply text-2xl font-bold text-gray-900 mt-10 mb-4;
+}
+
+.prose-custom h3 {
+  @apply text-xl font-semibold text-gray-800 mt-8 mb-3;
+}
+
+.prose-custom p {
+  @apply text-gray-700 leading-relaxed mb-4;
+}
+
+.prose-custom ul {
+  @apply list-disc list-inside space-y-2 mb-6 text-gray-700;
+}
+
+.prose-custom ol {
+  @apply list-decimal list-inside space-y-2 mb-6 text-gray-700;
+}
