@@ -118,6 +118,41 @@ export default function FAQPage() {
           </div>
         </div>
       </section>
+
+      {/* Internal links to service pages */}
+      <section className="py-12 px-4 bg-blue-50 border-t border-blue-100">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-xl font-bold text-blue-900 mb-5 text-center">Explore Our Services</h2>
+          <div className="grid sm:grid-cols-2 gap-3">
+            <Link href="/services/air-duct-cleaning" className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow transition-all text-sm font-medium text-gray-700 hover:text-blue-700">
+              <span className="text-xl">💨</span> Air Duct Cleaning
+            </Link>
+            <Link href="/services/dryer-vent-cleaning" className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow transition-all text-sm font-medium text-gray-700 hover:text-blue-700">
+              <span className="text-xl">🔥</span> Dryer Vent Cleaning
+            </Link>
+            <Link href="/services/hvac-cleaning" className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow transition-all text-sm font-medium text-gray-700 hover:text-blue-700">
+              <span className="text-xl">❄️</span> HVAC Cleaning
+            </Link>
+            <Link href="/services/mold-inspection-removal" className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow transition-all text-sm font-medium text-gray-700 hover:text-blue-700">
+              <span className="text-xl">🔬</span> Mold Inspection & Removal
+            </Link>
+            <Link href="/services/sanitization-deodorization" className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow transition-all text-sm font-medium text-gray-700 hover:text-blue-700">
+              <span className="text-xl">✨</span> Sanitization & Deodorization
+            </Link>
+            <Link href="/services/residential-air-duct-cleaning" className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow transition-all text-sm font-medium text-gray-700 hover:text-blue-700">
+              <span className="text-xl">🏠</span> Residential Duct Cleaning
+            </Link>
+          </div>
+          <div className="text-center mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+            <Link href="/contact" className="bg-blue-700 text-white font-bold px-6 py-3 rounded-lg hover:bg-blue-800 transition-colors text-sm">
+              Get a Free Estimate
+            </Link>
+            <Link href="/about" className="border border-blue-700 text-blue-700 font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors text-sm">
+              About Our Company
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
