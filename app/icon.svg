@@ -1,5 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-  <rect width="48" height="48" rx="10" fill="#1e3a8a"/>
-  <text x="24" y="33" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="22" fill="white" letter-spacing="-1">AL</text>
-  <path d="M8 38 Q24 34 40 38" stroke="#60a5fa" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#1e3a8a"/>
+  <!-- AL letters -->
+  <text x="32" y="42" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif"
+        font-weight="900" font-size="30" fill="white" letter-spacing="-1">AL</text>
+  <!-- Swoosh wave -->
+  <path d="M 8 48 C 20 42, 36 40, 48 44 C 54 46, 58 48, 60 46"
+        stroke="#60a5fa" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Dots -->
+  <circle cx="52" cy="14" r="3" fill="#60a5fa"/>
+  <circle cx="58" cy="10" r="2" fill="#93c5fd"/>
+  <circle cx="56" cy="20" r="2" fill="#93c5fd"/>
 </svg>
