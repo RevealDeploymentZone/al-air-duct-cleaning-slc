@@ -107,7 +107,7 @@ export default function ContactForm({ defaultService }: ContactFormProps) {
             value={form.name}
             onChange={handleChange}
             placeholder="John Smith"
-            className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           />
         </div>
         <div>
@@ -122,7 +122,7 @@ export default function ContactForm({ defaultService }: ContactFormProps) {
             value={form.phone}
             onChange={handleChange}
             placeholder="(385) 000-0000"
-            className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           />
         </div>
       </div>
@@ -138,7 +138,7 @@ export default function ContactForm({ defaultService }: ContactFormProps) {
           value={form.email}
           onChange={handleChange}
           placeholder="john@example.com"
-          className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
         />
       </div>
 
@@ -151,7 +151,7 @@ export default function ContactForm({ defaultService }: ContactFormProps) {
           name="service"
           value={form.service}
           onChange={handleChange}
-          className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
+          className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
         >
           <option value="">Select a service...</option>
           {serviceOptions.map((opt) => (
@@ -171,7 +171,7 @@ export default function ContactForm({ defaultService }: ContactFormProps) {
           value={form.message}
           onChange={handleChange}
           placeholder="Tell us about your home, any specific concerns, or when you'd like service..."
-          className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+          className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
         />
       </div>
 
