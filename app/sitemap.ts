@@ -17,5 +17,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/reviews`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${baseUrl}/faq`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.75 },
     { url: `${baseUrl}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: \`\${baseUrl}/blog\`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    { url: \`\${baseUrl}/blog/air-duct-cleaning-cost-salt-lake-city\`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.75 },
+    { url: \`\${baseUrl}/blog/signs-air-ducts-need-cleaning-slc\`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.75 },
+    { url: \`\${baseUrl}/blog/how-often-clean-air-ducts-utah\`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.75 },
+    { url: \`\${baseUrl}/blog/air-duct-cleaning-allergies-utah\`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.75 },
+    { url: \`\${baseUrl}/blog/dryer-vent-cleaning-fire-prevention-slc\`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.75 },
   ]
 }
