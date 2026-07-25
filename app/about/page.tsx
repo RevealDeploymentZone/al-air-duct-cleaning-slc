@@ -52,7 +52,7 @@ export default function AboutPage() {
 
             <h2>Our Certifications and Training</h2>
             <p>
-              All AL Air Duct Cleaning technicians hold current NADCA (National Air Duct Cleaners Association) certification. NADCA membership requires ongoing training and adherence to a strict professional code of ethics. We also carry full general liability insurance and workers&apos; compensation coverage, protecting both our team and your property.
+              All AL Air Duct Cleaning technicians hold current <a href="https://www.nadca.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">NADCA (National Air Duct Cleaners Association)</a> certification. NADCA membership requires ongoing training and adherence to a strict professional code of ethics. We also carry full general liability insurance and workers&apos; compensation coverage, protecting both our team and your property.
             </p>
 
             <h2>Our Equipment</h2>
@@ -82,6 +82,35 @@ export default function AboutPage() {
                 <p className="text-sm text-gray-500 mt-1">{s.label}</p>
               </div>
             ))}
+          </div>
+
+
+          {/* External Resources */}
+          <div className="bg-blue-50 rounded-xl p-6 border border-blue-100">
+            <h3 className="text-lg font-bold text-blue-900 mb-3">Industry Standards &amp; Resources</h3>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li>
+                <a href="https://www.nadca.com" target="_blank" rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 font-medium underline">
+                  NADCA — National Air Duct Cleaners Association
+                </a>
+                <span className="text-gray-500"> — The industry certifying body for duct cleaning professionals</span>
+              </li>
+              <li>
+                <a href="https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned" target="_blank" rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 font-medium underline">
+                  EPA Guide: Should You Have Air Ducts Cleaned?
+                </a>
+                <span className="text-gray-500"> — Official EPA guidance on residential duct cleaning</span>
+              </li>
+              <li>
+                <a href="https://www.epa.gov/indoor-air-quality-iaq" target="_blank" rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 font-medium underline">
+                  EPA Indoor Air Quality Resources
+                </a>
+                <span className="text-gray-500"> — Learn about indoor pollutants and health impacts</span>
+              </li>
+            </ul>
           </div>
 
           <div className="text-center">
