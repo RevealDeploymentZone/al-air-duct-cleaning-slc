@@ -94,6 +94,49 @@ export default function ReviewsPage() {
         </div>
       </section>
 
+
+      {/* External review platforms */}
+      <section className="py-12 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-xl font-bold text-gray-900 mb-2">See Our Reviews on Other Platforms</h2>
+          <p className="text-gray-500 text-sm mb-6">Our 4.9&#x2605; rating is consistent across every review platform.</p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href="https://www.google.com/maps/search/AL+Air+Duct+Cleaning+Salt+Lake+City+UT"
+              target="_blank" rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-white border border-gray-200 rounded-lg px-5 py-3 shadow-sm hover:shadow hover:border-blue-300 transition-all text-sm font-semibold text-gray-700">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.545 10.239v3.821h5.445c-.712 2.315-2.647 3.972-5.445 3.972a6.033 6.033 0 110-12.064c1.498 0 2.866.549 3.921 1.453l2.814-2.814A9.969 9.969 0 0012.545 2C7.021 2 2.543 6.477 2.543 12s4.478 10 10.002 10c8.396 0 10.249-7.85 9.426-11.748l-9.426-.013z" fill="#4285F4"/>
+              </svg>
+              Google Reviews
+            </a>
+            <a href="https://www.yelp.com/search?find_desc=AL+Air+Duct+Cleaning&find_loc=Salt+Lake+City%2C+UT"
+              target="_blank" rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-white border border-gray-200 rounded-lg px-5 py-3 shadow-sm hover:shadow hover:border-red-300 transition-all text-sm font-semibold text-gray-700">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="#d32323">
+                <path d="M20.16 12.594l-4.995 1.452c-.68.198-1.227-.226-1.02-.9l1.452-4.995c.207-.674.887-.88 1.476-.472l3.543 2.543c.59.408.224 1.174-.456 1.372z"/>
+              </svg>
+              Yelp Reviews
+            </a>
+            <a href="https://www.facebook.com/alairductcleaningslc"
+              target="_blank" rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-white border border-gray-200 rounded-lg px-5 py-3 shadow-sm hover:shadow hover:border-blue-400 transition-all text-sm font-semibold text-gray-700">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="#1877F2">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+              </svg>
+              Facebook Reviews
+            </a>
+          </div>
+          <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+            <Link href="/contact" className="bg-blue-700 text-white font-bold px-8 py-3 rounded-lg hover:bg-blue-800 transition-colors">
+              Get Your Free Estimate
+            </Link>
+            <Link href="/services" className="border-2 border-blue-700 text-blue-700 font-bold px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+              View Our Services
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 px-4 bg-blue-900 text-white text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-2xl font-extrabold mb-3">Ready to Experience the Difference?</h2>
