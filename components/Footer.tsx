@@ -17,6 +17,7 @@ const quickLinks = [
   { name: 'All Services', href: '/services' },
   { name: 'Customer Reviews', href: '/reviews' },
   { name: 'FAQ', href: '/faq' },
+  { name: 'Blog', href: '/blog' },
   { name: 'Contact Us', href: '/contact' },
   { name: 'Sitemap', href: '/sitemap.xml' },
 ]
