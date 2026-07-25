@@ -41,6 +41,40 @@ export default function SanitizationPage() {
         </div>
       </section>
 
+
+      {/* Related Services */}
+      <section className="py-14 px-4 bg-gray-50 border-t border-gray-200">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-gray-900 mb-2 text-center">Related Services</h2>
+          <p className="text-gray-500 text-sm text-center mb-6">
+            Customers who booked this service also found these helpful.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-6">
+            <Link href="/services/air-duct-cleaning"
+              className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow transition-all text-sm font-medium text-gray-700 hover:text-blue-700">
+              <span className="text-xl">💨</span> Air Duct Cleaning
+            </Link>
+            <Link href="/services/mold-inspection-removal"
+              className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow transition-all text-sm font-medium text-gray-700 hover:text-blue-700">
+              <span className="text-xl">🔬</span> Mold Inspection & Removal
+            </Link>
+            <Link href="/services/hvac-cleaning"
+              className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow transition-all text-sm font-medium text-gray-700 hover:text-blue-700">
+              <span className="text-xl">❄️</span> HVAC Cleaning
+            </Link>
+            <Link href="/services/residential-air-duct-cleaning"
+              className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow transition-all text-sm font-medium text-gray-700 hover:text-blue-700">
+              <span className="text-xl">🏠</span> Residential Duct Cleaning
+            </Link>
+          </div>
+          <div className="text-center">
+            <Link href="/services" className="text-blue-600 text-sm font-semibold hover:text-blue-800 underline">
+              View All Services &rarr;
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-3 gap-12">
           <article className="lg:col-span-2 prose-custom">
