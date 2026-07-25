@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const services = [
   { name: 'Air Duct Cleaning', href: '/services/air-duct-cleaning' },
@@ -30,19 +31,17 @@ export default function Header() {
       </div>
 
       {/* Main nav */}
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
-          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect width="48" height="48" rx="9" fill="#1e3a8a"/>
-            <path d="M9 33 Q17 25 24 29 Q31 33 39 25" stroke="#60a5fa" strokeWidth="2.5" fill="none" strokeLinecap="round"/>
-            <path d="M7 39 Q17 31 24 35 Q31 39 41 31" stroke="#93c5fd" strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.6"/>
-            <text x="24" y="27" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="900" fontSize="18" fill="white" letterSpacing="-0.5">AL</text>
-          </svg>
-          <div className="flex flex-col leading-tight">
-            <span className="text-xl font-extrabold text-blue-900">AL Air Duct Cleaning</span>
-            <span className="text-sm text-blue-600 font-semibold">Salt Lake City, Utah</span>
-          </div>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.svg"
+            alt="AL Air Duct Cleaning Salt Lake City"
+            width={200}
+            height={78}
+            priority
+            className="h-16 w-auto"
+          />
         </Link>
 
         {/* Desktop nav */}
