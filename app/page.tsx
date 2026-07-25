@@ -302,6 +302,350 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+
+      {/* About AL Air Duct Cleaning */}
+      <section className="py-20 px-4 bg-white" id="about-us">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            <div>
+              <span className="text-blue-600 font-semibold text-sm uppercase tracking-widest">About Our Company</span>
+              <h2 className="text-3xl font-extrabold text-gray-900 mt-2 mb-5">
+                Salt Lake City&apos;s Locally Owned Air Duct Cleaning Experts
+              </h2>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                AL Air Duct Cleaning has proudly served Salt Lake City families and businesses for over a decade. Our company was founded by local homeowners who understood firsthand the unique air quality challenges of living in the Salt Lake Valley — from winter temperature inversions trapping pollutants, to summer wildfire smoke, to the constant accumulation of dust and allergens inside residential ductwork.
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                What started as a small team committed to honest, thorough service has grown into one of the most trusted air duct cleaning companies across Salt Lake County. We&apos;ve built our reputation job by job, family by family — never cutting corners, never surprising customers with hidden fees, and always standing behind every clean with our 100% satisfaction guarantee.
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                Unlike national franchise chains that send subcontractors, every AL Air Duct Cleaning technician is a direct employee. Each team member is background-checked, drug-tested, and extensively trained to the standards set by the{' '}
+                <a
+                  href="https://www.nadca.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline font-medium"
+                >
+                  National Air Duct Cleaners Association (NADCA)
+                </a>
+                {' '}— the industry&apos;s gold standard for professional duct cleaning. We invest in the latest truck-mounted vacuum systems, high-definition inspection cameras, and EPA-registered sanitization treatments to ensure every job meets the highest quality benchmarks.
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                We are proud to be a locally owned and operated business that reinvests in the Salt Lake Valley community. When you choose AL Air Duct Cleaning, you&apos;re not just getting cleaner air — you&apos;re supporting a local business that genuinely cares about the health and well-being of every family in our community.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  href="/about"
+                  className="inline-flex items-center gap-2 bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors text-sm"
+                >
+                  Learn More About Us &#8594;
+                </Link>
+                <Link
+                  href="/reviews"
+                  className="inline-flex items-center gap-2 border border-blue-200 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-sm"
+                >
+                  Read Our Reviews &#8594;
+                </Link>
+              </div>
+            </div>
+            <div className="space-y-4">
+              {[
+                { title: 'NADCA-Certified Technicians', desc: 'All staff certified by the National Air Duct Cleaners Association — the highest credential in the industry.' },
+                { title: 'Licensed, Bonded & Insured', desc: 'Fully covered for residential and commercial work across Salt Lake County and surrounding areas.' },
+                { title: '10+ Years Serving Salt Lake Valley', desc: 'A decade of experience cleaning homes and businesses in SLC, Sandy, Draper, Murray, and beyond.' },
+                { title: '100% Satisfaction Guarantee', desc: 'If you\'re not fully satisfied with our work, we\'ll come back and make it right at no charge.' },
+                { title: 'Transparent, Upfront Pricing', desc: 'You get a clear written quote before we start. No surprise charges, no upsells, no hidden fees — ever.' },
+                { title: 'Before & After Photo Documentation', desc: 'We provide photographic proof of every clean so you can verify the results with your own eyes.' },
+              ].map((item) => (
+                <div key={item.title} className="flex gap-4 p-4 bg-blue-50 rounded-xl border border-blue-100">
+                  <div className="flex-shrink-0 w-8 h-8 bg-blue-700 rounded-full flex items-center justify-center mt-0.5">
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="font-bold text-gray-900 text-sm">{item.title}</p>
+                    <p className="text-gray-600 text-sm leading-relaxed mt-0.5">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SLC Air Quality Section */}
+      <section className="py-20 px-4 bg-blue-950 text-white" id="slc-air-quality">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            <div>
+              <span className="text-blue-300 font-semibold text-sm uppercase tracking-widest">Why It Matters Here</span>
+              <h2 className="text-3xl font-extrabold mt-2 mb-5">
+                Salt Lake City&apos;s Air Quality Challenge — And What You Can Do Indoors
+              </h2>
+              <p className="text-blue-100 leading-relaxed mb-4">
+                Salt Lake City regularly ranks among the most polluted cities in the United States during winter months. The Salt Lake Valley&apos;s unique geography — surrounded by the Wasatch Range to the east and the Oquirrh Mountains to the west — makes it especially vulnerable to temperature inversions. During these events, a layer of warm air traps cold air and pollutants close to the ground, pushing{' '}
+                <a
+                  href="https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-300 hover:underline font-medium"
+                >
+                  fine particulate matter (PM2.5)
+                </a>
+                {' '}levels to dangerous concentrations for days or weeks at a time.
+              </p>
+              <p className="text-blue-100 leading-relaxed mb-4">
+                But here&apos;s what many Salt Lake residents don&apos;t realize: according to the{' '}
+                <a
+                  href="https://www.epa.gov/report-environment/indoor-air-quality"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-300 hover:underline font-medium"
+                >
+                  U.S. Environmental Protection Agency (EPA)
+                </a>
+                , indoor air can be 2 to 5 times more polluted than outdoor air. Every time your HVAC system runs during an inversion event, it draws outside contaminants into your duct system. Combined with the everyday accumulation of dust, pet dander, pollen, mold spores, and cooking particles, your ducts can become a reservoir of pollutants circulating through your home around the clock.
+              </p>
+              <p className="text-blue-100 leading-relaxed mb-4">
+                For families with children, elderly residents, or anyone dealing with asthma or allergies, this invisible buildup poses real health risks. The{' '}
+                <a
+                  href="https://www.lung.org/clean-air/indoor-air"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-300 hover:underline font-medium"
+                >
+                  American Lung Association
+                </a>
+                {' '}identifies indoor air quality as a top environmental health priority, particularly in regions with known outdoor air challenges like Utah&apos;s Wasatch Front.
+              </p>
+              <p className="text-blue-100 leading-relaxed">
+                Professional air duct cleaning removes the accumulated contaminants from your duct system, reducing the pollutant load that recirculates through your home every time the heat or air conditioning runs. Combined with our{' '}
+                <Link href="/services/sanitization-deodorization" className="text-blue-300 hover:underline font-medium">
+                  EPA-registered sanitization service
+                </Link>
+                , we can dramatically improve the quality of the air your family breathes every day.
+              </p>
+            </div>
+            <div className="space-y-6">
+              <div className="bg-blue-900 rounded-2xl p-6 border border-blue-800">
+                <h3 className="text-lg font-bold mb-4 text-white">Signs Your Ducts Need Cleaning</h3>
+                <ul className="space-y-3 text-blue-100 text-sm">
+                  {[
+                    'Visible dust or debris inside duct openings or on registers',
+                    'Musty or stale odor when the HVAC system runs',
+                    'Unusual increase in dust accumulation throughout your home',
+                    'Family members experiencing worsened allergy or asthma symptoms indoors',
+                    'Recent home renovation, construction, or remodeling work',
+                    'Moving into a home with unknown duct cleaning history',
+                    'Evidence of rodent, insect, or pest infestation in ductwork',
+                    'Higher-than-expected energy bills without a clear explanation',
+                  ].map((sign) => (
+                    <li key={sign} className="flex items-start gap-2.5">
+                      <span className="text-blue-400 font-bold mt-0.5 flex-shrink-0">&#10003;</span>
+                      <span>{sign}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="bg-blue-900 rounded-2xl p-6 border border-blue-800">
+                <h3 className="text-lg font-bold mb-3 text-white">How Often Should You Clean Your Ducts?</h3>
+                <p className="text-blue-100 text-sm leading-relaxed mb-3">
+                  NADCA recommends having your air ducts professionally inspected every year and cleaned every 3–5 years for most homes. However, Salt Lake City homes may benefit from more frequent cleaning due to inversion-season particulate buildup.
+                </p>
+                <ul className="text-blue-100 text-sm space-y-1.5">
+                  <li><span className="font-semibold text-white">Homes with pets:</span> Every 2–3 years</li>
+                  <li><span className="font-semibold text-white">Households with allergy sufferers:</span> Every 2–3 years</li>
+                  <li><span className="font-semibold text-white">After renovation/construction:</span> Immediately</li>
+                  <li><span className="font-semibold text-white">Commercial properties:</span> Annually</li>
+                </ul>
+                <div className="mt-4">
+                  <Link
+                    href="/faq"
+                    className="text-blue-300 hover:underline text-sm font-semibold"
+                  >
+                    See all FAQs &#8594;
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 7-Step Process */}
+      <section className="py-20 px-4 bg-gray-50" id="our-process">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-14">
+            <span className="text-blue-600 font-semibold text-sm uppercase tracking-widest">How We Work</span>
+            <h2 className="text-3xl font-extrabold text-gray-900 mt-2 mb-4">
+              Our 7-Step Professional Duct Cleaning Process
+            </h2>
+            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+              Every AL Air Duct Cleaning job follows our proven, systematic process — developed over 10+ years of professional duct cleaning in Salt Lake City.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {[
+              {
+                step: '01',
+                title: 'Free Inspection',
+                desc: 'We begin with a full visual inspection using HD cameras to assess contamination levels, identify mold, and detect any structural issues inside your ductwork.',
+              },
+              {
+                step: '02',
+                title: 'Home Protection',
+                desc: 'Floor coverings are laid, furniture is protected, and all supply and return registers are sealed to contain debris during the cleaning process.',
+              },
+              {
+                step: '03',
+                title: 'Negative Pressure Setup',
+                desc: 'Our truck-mounted vacuum system connects to your main trunk line, creating powerful negative pressure throughout the entire duct network — nothing escapes into your living space.',
+              },
+              {
+                step: '04',
+                title: 'Agitation & Dislodgement',
+                desc: 'Rotary brushes, compressed air whips, and pneumatic tools break loose hardened dust and debris from duct walls, pushing it all toward the collection point.',
+              },
+              {
+                step: '05',
+                title: 'HVAC Component Cleaning',
+                desc: 'We clean your air handler, evaporator coils, blower motor, and drain pan — critical components that harbor bacteria and restrict airflow when neglected.',
+              },
+              {
+                step: '06',
+                title: 'Sanitization Treatment',
+                desc: 'Upon request, we apply EPA-registered antimicrobial treatments throughout your duct system, eliminating bacteria, mold spores, and odor-causing organisms.',
+              },
+              {
+                step: '07',
+                title: 'Final Inspection & Documentation',
+                desc: 'A post-clean camera inspection confirms thorough results. We provide before-and-after photo documentation so you can see exactly what was removed.',
+              },
+              {
+                step: '08',
+                title: 'Clean, No-Mess Departure',
+                desc: 'We remove all equipment, floor covers, and debris. We leave your home exactly as we found it — only with dramatically cleaner air inside your ducts.',
+              },
+            ].map((item) => (
+              <div key={item.step} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 relative">
+                <span className="text-5xl font-extrabold text-blue-100 absolute top-4 right-4 leading-none select-none">{item.step}</span>
+                <h3 className="font-bold text-gray-900 mb-2 relative z-10">{item.title}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed relative z-10">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 bg-blue-700 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-800 transition-colors"
+            >
+              Schedule Your Cleaning Today &#8594;
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Health Benefits */}
+      <section className="py-20 px-4 bg-white" id="health-benefits">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="text-blue-600 font-semibold text-sm uppercase tracking-widest">Health & Home Benefits</span>
+            <h2 className="text-3xl font-extrabold text-gray-900 mt-2 mb-4">
+              What Clean Air Ducts Mean for Your Salt Lake City Home
+            </h2>
+            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+              Professional duct cleaning delivers measurable improvements to your home&apos;s health, comfort, and energy efficiency.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: '🫁',
+                title: 'Better Indoor Air Quality',
+                desc: 'Removing accumulated dust, mold spores, pollen, pet dander, and bacteria from your ducts directly reduces the concentration of airborne pollutants in your living spaces. Families report noticeably fresher air after cleaning.',
+              },
+              {
+                icon: '🤧',
+                title: 'Reduced Allergy & Asthma Symptoms',
+                desc: 'For the millions of Utahns who suffer from seasonal allergies and respiratory conditions, clean ducts mean fewer triggers circulating through your home. Many customers report significant symptom relief after a thorough cleaning.',
+              },
+              {
+                icon: '💡',
+                title: 'Lower Energy Bills',
+                desc: 'Dust and debris buildup restricts airflow in your HVAC system, forcing it to work harder and consume more energy. Clean ducts allow your system to operate at peak efficiency, often reducing heating and cooling costs by 20-30%.',
+              },
+              {
+                icon: '🏠',
+                title: 'Extended HVAC System Life',
+                desc: 'Dirty ducts force your furnace and air conditioner to strain against restricted airflow. Regular cleaning reduces wear and tear on motors, coils, and components — extending the life of your HVAC system and delaying costly replacements.',
+              },
+              {
+                icon: '🛡️',
+                title: 'Mold Prevention & Removal',
+                desc: 'Utah\'s temperature swings create condensation inside ductwork, which can foster mold growth. Our cleaning and sanitization services eliminate existing mold and create conditions that discourage future growth in your duct system.',
+              },
+              {
+                icon: '🔥',
+                title: 'Dryer Fire Prevention',
+                desc: 'Clogged dryer vents are the leading cause of residential dryer fires in the United States. Our dryer vent cleaning removes dangerous lint buildup, dramatically reducing fire risk while cutting drying time and energy use.',
+              },
+            ].map((item) => (
+              <div key={item.title} className="flex gap-4">
+                <div className="flex-shrink-0 text-3xl">{item.icon}</div>
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-1.5">{item.title}</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="mt-12 bg-blue-50 rounded-2xl p-8 text-center border border-blue-100">
+            <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
+              Ready to experience the difference clean ducts make? AL Air Duct Cleaning offers free estimates with no obligation. Most residential jobs are completed in just 2–4 hours, and our technicians leave your home spotless.{' '}
+              <Link href="/contact" className="text-blue-700 font-bold hover:underline">
+                Request your free estimate today
+              </Link>{' '}
+              or{' '}
+              <a href="tel:3854621032" className="text-blue-700 font-bold hover:underline">
+                call us at (385) 462-1032
+              </a>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Neighborhoods */}
+      <section className="py-16 px-4 bg-gray-50" id="service-areas">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl font-extrabold text-gray-900 mb-3">
+              Air Duct Cleaning Across All of Salt Lake Valley
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              We proudly serve homeowners and businesses throughout Salt Lake County and surrounding communities. No matter where you are in the valley, our team can be at your door — often the same day.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { area: 'Salt Lake City', desc: 'Our home base — serving all SLC neighborhoods from the Avenues to Rose Park.' },
+              { area: 'Sandy & Draper', desc: 'Covering South Valley communities including Alta Canyon, Draper Hills, and Suncrest.' },
+              { area: 'Murray & Millcreek', desc: 'Fast same-day availability for Murray, Millcreek, and Holladay residents.' },
+              { area: 'West Valley & Taylorsville', desc: 'Full-service duct cleaning for West Valley City and Taylorsville homes and businesses.' },
+              { area: 'South Jordan & Herriman', desc: 'Serving fast-growing South Valley communities with flexible scheduling.' },
+              { area: 'Midvale, Riverton & Bluffdale', desc: 'Comprehensive residential and commercial duct cleaning for mid-valley neighborhoods.' },
+            ].map((item) => (
+              <div key={item.area} className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm">
+                <h3 className="font-bold text-blue-900 mb-1">{item.area}</h3>
+                <p className="text-sm text-gray-600">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-center mt-6 text-sm text-gray-500">
+            Don&apos;t see your area? <a href="tel:3854621032" className="text-blue-600 hover:underline font-medium">Call us at (385) 462-1032</a> — we likely serve your neighborhood too.
+          </p>
+        </div>
+      </section>
     </>
   )
 }
