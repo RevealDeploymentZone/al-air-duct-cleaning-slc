@@ -86,6 +86,7 @@ export default function Header() {
           <Link href="/about" className="hover:text-blue-700 transition-colors">About</Link>
           <Link href="/reviews" className="hover:text-blue-700 transition-colors">Reviews</Link>
           <Link href="/faq" className="hover:text-blue-700 transition-colors">FAQ</Link>
+          <Link href="/blog" className="hover:text-blue-700 transition-colors">Blog</Link>
           <Link href="/contact" className="hover:text-blue-700 transition-colors">Contact</Link>
         </nav>
 
@@ -136,6 +137,7 @@ export default function Header() {
           <Link href="/about" className="block hover:text-blue-700" onClick={() => setMobileOpen(false)}>About</Link>
           <Link href="/reviews" className="block hover:text-blue-700" onClick={() => setMobileOpen(false)}>Reviews</Link>
           <Link href="/faq" className="block hover:text-blue-700" onClick={() => setMobileOpen(false)}>FAQ</Link>
+          <Link href="/blog" className="block hover:text-blue-700" onClick={() => setMobileOpen(false)}>Blog</Link>
           <Link href="/contact" className="block hover:text-blue-700" onClick={() => setMobileOpen(false)}>Contact</Link>
           <a
             href="tel:3854621032"
