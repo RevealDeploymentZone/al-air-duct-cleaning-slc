@@ -67,6 +67,25 @@ export default function RootLayout({
       <body className="bg-white">
         <Header />
         <main>{children}</main>
+
+        {/* Google Map Section */}
+        <section className="bg-gray-800 py-12 px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-2xl font-bold text-center text-white mb-6">Our Service Area – Salt Lake City, UT</h2>
+            <div className="w-full rounded-xl overflow-hidden shadow-lg" style={{ height: '400px' }}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96756.24571752547!2d-111.97853565380859!3d40.76077592000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87523d9488d131ed%3A0x5b53b7a0484d31ca!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+          </div>
+        </section>
+
         <Footer />
       </body>
     </html>
