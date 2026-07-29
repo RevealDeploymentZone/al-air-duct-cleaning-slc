@@ -74,7 +74,7 @@ export default function RootLayout({
             <h2 className="text-2xl font-bold text-center text-white mb-6">Our Service Area – Salt Lake City, UT</h2>
             <div className="w-full rounded-xl overflow-hidden shadow-lg" style={{ height: '400px' }}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425528.5344435563!2d-112.43706621413045!3d33.56787984372134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x64da4d077b672761%3A0xf9bc2c1e21204634!2sAL%20Air%20Duct%20Cleaning%20Phoenix!5e0!3m2!1sen!2sin!4v1785047043780!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1sAL+Air+Duct+Cleaning+Salt+Lake+City+UT"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

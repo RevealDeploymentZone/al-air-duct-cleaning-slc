@@ -23,7 +23,7 @@ export default function Header() {
       {/* Top bar */}
       <div className="bg-blue-900 text-white text-sm py-1.5">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-1">
-          <span>Mon-Fri: 7am-7pm | Sat: 8am-5pm</span>
+          <span>Open 24/7 — Available Anytime</span>
           <a href="tel:3854621032" className="font-semibold hover:text-blue-200 transition-colors">
             (385) 462-1032 — Call or Text
           </a>
